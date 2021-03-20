@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.Zumbador", "06.Zumbador\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.ZumbadorPasivo", "07.ZumbadorPasivo\07.ZumbadorPasivo.vcxproj", "{FF9E385D-DC45-4720-BAEA-09A95D5CC469}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.InterruptorBolaInclinacion", "08.InterruptorBolaInclinacion\08.InterruptorBolaInclinacion.vcxproj", "{F96C7EF6-412D-4AA1-947E-FCA5B254087A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -29,6 +31,10 @@ Global
 		{FF9E385D-DC45-4720-BAEA-09A95D5CC469}.Debug|x86.Build.0 = Debug|Win32
 		{FF9E385D-DC45-4720-BAEA-09A95D5CC469}.Release|x86.ActiveCfg = Release|Win32
 		{FF9E385D-DC45-4720-BAEA-09A95D5CC469}.Release|x86.Build.0 = Release|Win32
+		{F96C7EF6-412D-4AA1-947E-FCA5B254087A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F96C7EF6-412D-4AA1-947E-FCA5B254087A}.Debug|x86.Build.0 = Debug|Win32
+		{F96C7EF6-412D-4AA1-947E-FCA5B254087A}.Release|x86.ActiveCfg = Release|Win32
+		{F96C7EF6-412D-4AA1-947E-FCA5B254087A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 		{064F903F-334A-4216-A7BC-A83CC120420F} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 		{FF9E385D-DC45-4720-BAEA-09A95D5CC469} = {F131D093-9CFB-4290-AD93-0465C95233E7}
+		{F96C7EF6-412D-4AA1-947E-FCA5B254087A} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66AC7CA7-0853-47FC-B841-F1BF20703072}
