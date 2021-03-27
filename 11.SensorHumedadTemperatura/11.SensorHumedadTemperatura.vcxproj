@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8733CF3A-EC0C-46D2-802C-E9B127F47126}</ProjectGuid>
-    <RootNamespace>_10_SensorUltrasonico</RootNamespace>
-    <ProjectName>10.SensorUltrasonico</ProjectName>
+    <ProjectGuid>{BA71D8C9-022B-4195-B155-BE89889FB791}</ProjectGuid>
+    <RootNamespace>_11_SensorHumedadTemperatura</RootNamespace>
+    <ProjectName>11.SensorHumedadTemperatura</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,8 +77,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\10.SensorUltrasonico;$(ProjectDir)..\..\..\..\Users\juana\Documents\Arduino\libraries\HC-SR04;D:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;D:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;D:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include-fixed;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.10.SensorUltrasonico.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\11.SensorHumedadTemperatura;$(ProjectDir)..\..\..\..\Users\juana\Documents\Arduino\libraries\DHT;D:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;D:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;$(ProjectDir)..\..\ELEGOO~1.R3\11163D~1.SEN;D:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include-fixed;D:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;D:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.11.SensorHumedadTemperatura.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=108013;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -107,7 +107,7 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="10.SensorUltrasonico.ino">
+    <None Include="11.SensorHumedadTemperatura.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
@@ -116,7 +116,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.10.SensorUltrasonico.vsarduino.h" />
+    <ClInclude Include="__vm\.11.SensorHumedadTemperatura.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
