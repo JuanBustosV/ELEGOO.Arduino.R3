@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.SensorUltrasonico", "10.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.SensorHumedadTemperatura", "11.SensorHumedadTemperatura\11.SensorHumedadTemperatura.vcxproj", "{BA71D8C9-022B-4195-B155-BE89889FB791}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.JoystrickAnalogico", "12.JoystrickAnalogico\12.JoystrickAnalogico.vcxproj", "{4F855A58-EE8A-43F6-A919-1F2B3909A646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -53,6 +55,10 @@ Global
 		{BA71D8C9-022B-4195-B155-BE89889FB791}.Debug|x86.Build.0 = Debug|Win32
 		{BA71D8C9-022B-4195-B155-BE89889FB791}.Release|x86.ActiveCfg = Release|Win32
 		{BA71D8C9-022B-4195-B155-BE89889FB791}.Release|x86.Build.0 = Release|Win32
+		{4F855A58-EE8A-43F6-A919-1F2B3909A646}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F855A58-EE8A-43F6-A919-1F2B3909A646}.Debug|x86.Build.0 = Debug|Win32
+		{4F855A58-EE8A-43F6-A919-1F2B3909A646}.Release|x86.ActiveCfg = Release|Win32
+		{4F855A58-EE8A-43F6-A919-1F2B3909A646}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{354492D3-CB30-408B-86C2-B740A47BBFCF} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 		{8733CF3A-EC0C-46D2-802C-E9B127F47126} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 		{BA71D8C9-022B-4195-B155-BE89889FB791} = {F131D093-9CFB-4290-AD93-0465C95233E7}
+		{4F855A58-EE8A-43F6-A919-1F2B3909A646} = {F131D093-9CFB-4290-AD93-0465C95233E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66AC7CA7-0853-47FC-B841-F1BF20703072}
